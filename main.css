@@ -78,10 +78,7 @@ body {
     transform: scale(1)  rotate(-45deg);
 }
 
-/* h1, p{
-    color: red;
 
-} */
 
 .footer
 a {
@@ -99,4 +96,16 @@ a {
 #hidden-content  {
  
     animation: opacityChange 2s ease ; /* Nome da animação, duração, função de temporização e repetição */
+}
+
+.form-control,  .btn {
+    box-shadow: none !important; /* Remove o contorno azul padrão */
+}
+.bg-dark, .btn-dark{
+    background: black !important;
+}
+
+
+.btn:hover{
+    color: red;
 }
