@@ -11,6 +11,11 @@ hearth.addEventListener("click", function() {
        
     }
 });
+  const heart = document.getElementById("heart");
+
+    heart.addEventListener("click", function () {
+        hiddenContent.style.display = "block"; // Mostra o conteúdo oculto
+    });
 
 
 hearth.addEventListener("click", function() {
@@ -47,5 +52,5 @@ document.getElementById("calculateBtn").addEventListener("click", function() {
 
     const compatibility = calculateCompatibility(name1, name2);
     const resultElement = document.getElementById("result");
-    resultElement.textContent = `A compatibilidade entre ${name1} e ${name2} é de ${compatibility}%`;
+    resultElement.textContent = `the compatibility between ${name1} and ${name2} is ${compatibility}%`;
 });
